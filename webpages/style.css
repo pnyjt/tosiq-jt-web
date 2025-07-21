@@ -1,0 +1,43 @@
+body{
+    background-color: #ccc;
+}
+.navbar-wrapper{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.navbar-wrapper > .brand > img{
+    height: 60px;
+    width: 60px
+}
+.navbar-wrapper > .links > ul{
+    list-style: none;
+}
+.navbar-wrapper > .links > ul > li{
+    display: inline;
+}
+.navbar-wrapper > .links > ul > li > a{
+    text-decoration: none;
+    color: #000;
+    margin: 0px 24px;
+    font-size: 24px
+}
+.navbar-wrapper > .links > ul > li:hover a{
+    text-decoration: underline;
+}
+.navbar-wrapper > .cta > button{
+    border: none;
+    background-color: #F78A2D;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: ease .3s;
+    font-size: 24px
+}
+.navbar-wrapper > .cta > button:hover{
+    outline: 2px solid rgb(207, 191, 177);
+}
