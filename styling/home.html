@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Style</title>
+    <style>
+        .btn{
+            border: none;
+            background-color: #2F5249;
+            color: #97B067;
+            border-radius: 12px;
+            padding: 4px 12px;
+            cursor: pointer;
+            margin-left: 12px;
+        }
+        .btn:hover{
+            background-color: #97B067;
+            color: #2F5249;
+        }
+        .formating{
+            color: red;
+        }
+        .formating > strong{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <input type="submit" class="btn" value="Submit">
+    <div class="formating">
+        <p>This is some text in this div</p>
+        <strong>This is bold text</strong>
+    </div>
+</body>
+</html>

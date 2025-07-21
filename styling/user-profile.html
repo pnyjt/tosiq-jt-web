@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+      body {
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        background-color: rgb(236, 236, 242);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .profile-card {
+        padding: 12px;
+        border-radius: 8px;
+        background-color: #fff;
+        max-width: 280px;
+      }
+      .card-header > .user-img > img {
+        border-radius: 20px;
+        margin-right: 8px;
+      }
+      .card-header {
+        display: flex;
+        align-items: start;
+      }
+      .card-header > .bio > .user-designation {
+        font-size: 9px;
+        color: #6e6d7a;
+      }
+      .card-body {
+        margin-top: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .card-body > .social-counts {
+      }
+      .card-body > .cta > button {
+        border: none;
+        background-color: #0d5ea6;
+        color: #fff;
+        border-radius: 4px;
+        padding: 4px 12px;
+        cursor: pointer;
+        margin-left: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile-card">
+      <div class="card-header">
+        <div class="user-img">
+          <img
+            src="assets/images/user.jfif"
+            width="40"
+            height="40"
+            alt="User image"
+          />
+        </div>
+        <div class="bio">
+          <div class="user-name">John Doe</div>
+          <div class="user-designation">UI/UX Designer</div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="social-counts"><i class="fa-solid fa-rocket"></i> &nbsp; 34k</div>
+        <div class="cta">
+          <button type="button">More</button>
+        </div>
+      </div>
+      <div class="card-footer">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam cum
+          natus placeat ipsa facilis error nisi! Ipsam, dolore cum corrupti odio
+          amet incidunt.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
